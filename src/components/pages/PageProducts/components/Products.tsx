@@ -26,11 +26,11 @@ export default function Products() {
             <CardMedia
               sx={{ pt: "100%" }}
               image={product.img}
-              title={product.name}
+              title={product.title}
             />
             <CardContent sx={{ flexGrow: 1 }}>
               <Typography gutterBottom variant="h5" component="h2">
-                {product.name}
+                {product.title}
               </Typography>
               <Typography>{formatAsPrice(product.price)}</Typography>
             </CardContent>
