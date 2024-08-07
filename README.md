@@ -2,9 +2,7 @@
 
 ## Cross-check links
 
-[S3-website](https://cdkdeploymentstack-rsschoolservingspaautob0741dfa-ci65jyah5crq.s3.eu-central-1.amazonaws.com/index.html)
-
-[CloudFront URL](https://d266s2h0r1qt2p.cloudfront.net/)
+[CloudFront URL](https://d3ngi53tq17rj4.cloudfront.net)
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
 
