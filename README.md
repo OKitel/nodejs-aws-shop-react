@@ -2,9 +2,7 @@
 
 ## Cross-check links
 
-[S3-website](https://cdkdeploymentstack-rsschoolservingspaautob0741dfa-ci65jyah5crq.s3.eu-central-1.amazonaws.com/index.html)
-
-[CloudFront URL](https://d266s2h0r1qt2p.cloudfront.net/)
+[CloudFront URL](https://d3ngi53tq17rj4.cloudfront.net)
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
 
@@ -22,6 +20,8 @@ This is frontend starter project for nodejs-aws mentoring program. It uses the f
 - [TypeScript](https://www.typescriptlang.org/) as a type checking tool
 
 ## Available Scripts
+
+note: run `npm install --force` and `npm install -g aws-cdk` first.
 
 ### `start`
 
@@ -42,3 +42,7 @@ Runs tests in console, in browser or with coverage.
 ### `lint`, `prettier`
 
 Runs linting and formatting for all files in `src` folder.
+
+### `deploy`
+
+Deploys the project to AWS using CDK scripts.
